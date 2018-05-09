@@ -5,7 +5,7 @@
 
 </H1>
 
-<BODY BGCOLOR="FFFFFF"> 
+<!-- <BODY BGCOLOR="FFFFFF"> -->
 
 <!-- <CENTER><IMG SRC="clouds.jpg" ALIGN="BOTTOM"> </CENTER> -->
 
@@ -18,7 +18,7 @@
 
 <HR>
 
-</BODY>
+<!-- </BODY> -->
 
 </HTML>
 
