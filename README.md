@@ -1,5 +1,8 @@
 
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+
 <h1>
 Analysing Molecular Dynamics Simulations
 </h1>
@@ -18,5 +21,6 @@ Analysing Molecular Dynamics Simulations
 
 <!-- </BODY> -->
 </body>
+</head>
 </html>
 
