@@ -1,8 +1,8 @@
 
 <html>
-<title>
+<h1>
 Analysing Molecular Dynamics Simulations
-</title>
+</h1>
 <body>
 <!-- <BODY BGCOLOR="FFFFFF"> -->
 
