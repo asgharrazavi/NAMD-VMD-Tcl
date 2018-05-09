@@ -1,7 +1,7 @@
 
 <HTML>
 
-<H1/>Analysing Molecular Dynamics Simulations
+<H1 Analysing Molecular Dynamics Simulations
 
 </H1>
 
