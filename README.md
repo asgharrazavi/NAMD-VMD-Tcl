@@ -1,12 +1,5 @@
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Asghar Razavi MD simulation analysis</title>
-  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-  <link href="" rel="stylesheet" media="screen" />
-	<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Roboto" rel="stylesheet">
 </head>
 
 
