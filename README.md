@@ -1,9 +1,11 @@
 
 <html>
-
-<h1>Analysing Molecular Dynamics Simulations
-</h1>
-
+<head>
+<title>
+Analysing Molecular Dynamics Simulations
+</title>
+</head>
+<body>
 <!-- <BODY BGCOLOR="FFFFFF"> -->
 
 <!-- <CENTER><IMG SRC="clouds.jpg" ALIGN="BOTTOM"> </CENTER> -->
@@ -17,6 +19,6 @@
 <hr>
 
 <!-- </BODY> -->
-
+</body>
 </html>
 
