@@ -1,11 +1,11 @@
 
 <HTML>
 
-<HEAD>
-<TITLE>Analysing Molecular Dynamics Simulations</TITLE>
-</HEAD>
+<H1>Analysing Molecular Dynamics Simulations
 
-<BODY BGCOLOR="FFFFFF">
+</H1>
+
+<BODY BGCOLOR="FFFFFF"> 
 
 <!-- <CENTER><IMG SRC="clouds.jpg" ALIGN="BOTTOM"> </CENTER> -->
 
