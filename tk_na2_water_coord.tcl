@@ -7,5 +7,6 @@ for {set i 0} {$i < $num_frames} {incr i} {
    set num [$selection num]
    puts $output $num
  }
+
 close $output
 
