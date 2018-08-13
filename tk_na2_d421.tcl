@@ -8,7 +8,7 @@ for {set i 0} {$i < $nf} {incr i} {
     set com1 [measure center $sel1 weight mass]
     set com2 [measure center $sel2 weight mass]
     set simdata($i.r) [veclength [vecsub $com1 $com2]]
-    puts $outfile "$i $simdata($i.r)"
+    puts $outfile "$simdata($i.r)"
 }
 
 close $outfile
