@@ -25,6 +25,8 @@ patch DISU PRO1:123 PRO1:132
 patch GLUP PRO1:434
 patch DISU PRO2:123 PRO2:132
 patch GLUP PRO2:434
+
+# important for proper generation of angles and dihedrals of patches
 regenerate dihedrals angles
 
 # to guss coordinates for added atoms instead of puting all zeros for X, Y, Z
