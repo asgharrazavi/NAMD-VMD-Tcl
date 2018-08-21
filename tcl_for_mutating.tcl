@@ -27,6 +27,7 @@ patch DISU PRO2:123 PRO2:132
 patch GLUP PRO2:434
 regenerate dihedrals angles
 
+# to guss coordinates for added atoms instead of puting all zeros for X, Y, Z
 guesscoord
 writepdb prot2.pdb
 writepsf prot2.psf
