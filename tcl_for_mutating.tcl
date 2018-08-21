@@ -20,6 +20,7 @@ segment PRO2 {
 coordpdb pro2.pdb PRO2
 
 
+# disulfide bonds need to be regenerated
 patch DISU PRO1:123 PRO1:132
 patch GLUP PRO1:434
 patch DISU PRO2:123 PRO2:132
