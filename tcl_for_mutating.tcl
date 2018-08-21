@@ -3,6 +3,8 @@ topology top_all36_prot.rtf
 pdbalias residue HIS HSE
 pdbalias atom ILE CD1 CD
 
+
+# inputs: pro1.pdb, pro2.pdb top_all36_prot.rtf
 segment PRO1 {
         pdb pro1.pdb
         first NTER
