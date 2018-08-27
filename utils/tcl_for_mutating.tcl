@@ -33,5 +33,7 @@ regenerate dihedrals angles
 
 # to guss coordinates for added atoms instead of puting all zeros for X, Y, Z
 guesscoord
+
+# write pdb and psf
 writepdb prot2.pdb
 writepsf prot2.psf
