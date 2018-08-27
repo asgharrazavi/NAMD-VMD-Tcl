@@ -1,6 +1,7 @@
 package require psfgen
 
 topology top_all36_prot.rtf
+
 pdbalias residue HIS HSE
 pdbalias atom ILE CD1 CD
 
