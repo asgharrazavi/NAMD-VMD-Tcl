@@ -2,18 +2,8 @@
 
 <a href="https://www.ks.uiuc.edu/Research/vmd/">VMD</a>
 
-article{HUMP96,
-  author={William Humphrey and Andrew Dalke and Klaus Schulten},
-  title={{VMD} -- {V}isual {M}olecular {D}ynamics},
-  journal={Journal of Molecular Graphics},
-  year=1996,
-  volume=14,
-  pages={33-38},
-  note={},
-  tbstatus={Published.},
-  techrep={},
-  tbreference={222}
-}
+Humphrey, W., Dalke, A. and Schulten, K., "VMD - Visual Molecular Dynamics", J. Molec. Graphics, 1996, vol. 14, pp. 33-38.
+
 
 
 ------
