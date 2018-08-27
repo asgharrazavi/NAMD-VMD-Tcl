@@ -1,4 +1,4 @@
-# Some Tcl scripts for molecular dynamics simulation trajectories using VMD.
+### Some Tcl scripts for molecular dynamics simulation trajectories using VMD.
 
 ------
 
