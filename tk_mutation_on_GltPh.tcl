@@ -1,6 +1,6 @@
 
-#mol new ../dowser/dowsed.pdb
-# A, B, C == protein  | L == lipid   | W == water  | D == internal water  | I == ions
+mol new ../dowser/dowsed.pdb
+mol 
 
 animate write psf non_protein.psf sel [atomselect top "not protein"]
 animate write pdb non_protein.pdb sel [atomselect top "not protein"]
