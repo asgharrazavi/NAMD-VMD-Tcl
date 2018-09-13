@@ -1,3 +1,5 @@
+
+# add a molecule
 mol new  NKA_4hqj.psf type psf first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 
 for {set i 1} {$i < 9} {incr i} {
