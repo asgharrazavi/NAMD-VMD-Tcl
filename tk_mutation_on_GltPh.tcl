@@ -13,9 +13,9 @@ animate write pdb prot_C.pdb sel [atomselect top "chain C"]
 
 # mutate protein segments
 package require psfgen
-topology /Users/asr2031/Dropbox/pyscripts/Namd/openmm_par/top_all36_prot.rtf
-topology /Users/asr2031/Dropbox/pyscripts/Namd/openmm_par/top_all36_lipid.rtf
-topology /Users/asr2031/Dropbox/pyscripts/Namd/openmm_par/toppar_water_ions.str
+topology top_all36_prot.rtf
+topology top_all36_lipid.rtf
+topology toppar_water_ions.str
 
 pdbalias residue HIS HSD
 pdbalias atom ILE CD1 CD
