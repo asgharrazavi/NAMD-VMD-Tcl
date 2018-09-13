@@ -1,7 +1,7 @@
 
 # load a molecule
-mol new mol.psf
-mol addfile mol.pdb
+mol new start.psf
+mol addfile start.pdb
 
 # parse segments
 animate write psf non_protein.psf sel [atomselect top "not protein"]
