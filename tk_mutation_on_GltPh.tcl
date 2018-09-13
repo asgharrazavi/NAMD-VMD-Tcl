@@ -13,6 +13,7 @@ animate write pdb prot_C.pdb sel [atomselect top "chain C"]
 
 # mutate protein segments
 package require psfgen
+
 topology top_all36_prot.rtf
 topology top_all36_lipid.rtf
 topology toppar_water_ions.str
