@@ -1,6 +1,6 @@
 
-mol new ../dowser/dowsed.pdb
-mol 
+mol new mol.psf
+mol addfile mol.pdb
 
 animate write psf non_protein.psf sel [atomselect top "not protein"]
 animate write pdb non_protein.pdb sel [atomselect top "not protein"]
