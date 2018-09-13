@@ -1,7 +1,9 @@
 
+# load a molecule
 mol new mol.psf
 mol addfile mol.pdb
 
+# parse segments
 animate write psf non_protein.psf sel [atomselect top "not protein"]
 animate write pdb non_protein.pdb sel [atomselect top "not protein"]
 
@@ -9,7 +11,7 @@ animate write pdb prot_A.pdb sel [atomselect top "chain A"]
 animate write pdb prot_B.pdb sel [atomselect top "chain B"]
 animate write pdb prot_C.pdb sel [atomselect top "chain C"]
 
-
+# mutate protein segments
 package require psfgen
 topology /Users/asr2031/Dropbox/pyscripts/Namd/openmm_par/top_all36_prot.rtf
 topology /Users/asr2031/Dropbox/pyscripts/Namd/openmm_par/top_all36_lipid.rtf
@@ -23,7 +25,6 @@ pdbalias residue HOH TIP3
 pdbalias atom TIP3 OW OH2
 
 resetpsf
-
 
 foreach S { A B C} {
    segment $S {
@@ -41,8 +42,7 @@ writepdb protein.pdb
 writepsf protein.psf
 
 
-
-
+# combine protein and non-protein segments
 resetpsf
 
 readpsf  protein.psf
