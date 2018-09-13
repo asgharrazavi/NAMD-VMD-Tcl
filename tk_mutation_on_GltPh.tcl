@@ -1,3 +1,7 @@
+###########################
+# script for mutation residues on GltPh trimer
+###########################
+
 
 # load a molecule
 mol new start.psf
