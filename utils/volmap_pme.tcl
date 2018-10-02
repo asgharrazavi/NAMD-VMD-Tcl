@@ -3,13 +3,9 @@ package require pbctools
 
 
 volmap density [atomselect 0 "segname PROA and resid 804"] -res 0.5 -weight mass -allframes -combine avg -mol top -checkpoint 0 -minmax {{-60 -60 -120} {60 60 120}} -o d804_box.dx
-
 volmap density [atomselect 0 "segname PROA and resid 808"] -res 0.5 -weight mass -allframes -combine avg -mol top -checkpoint 0 -minmax {{-60 -60 -120} {60 60 120}} -o d808_box.dx
-
 volmap density [atomselect 0 "segname PROA and resid 926"] -res 0.5 -weight mass -allframes -combine avg -mol top -checkpoint 0 -minmax {{-60 -60 -120} {60 60 120}} -o d926_box.dx
-
 volmap density [atomselect 0 "segname PROA and resid 327"] -res 0.5 -weight mass -allframes -combine avg -mol top -checkpoint 0 -minmax {{-60 -60 -120} {60 60 120}} -o e327_box.dx
-
 volmap density [atomselect 0 "segname PROA and resid 779"] -res 0.5 -weight mass -allframes -combine avg -mol top -checkpoint 0 -minmax {{-60 -60 -120} {60 60 120}} -o e779_box.dx
 
 
