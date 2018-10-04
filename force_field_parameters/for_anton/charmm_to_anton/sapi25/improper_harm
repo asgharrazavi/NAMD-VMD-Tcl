@@ -1,0 +1,20 @@
+[
+   {"type": ["CC2O1", "CC331", "NC2D1", "OC2D1"], "params": {"phi0": 0.0, "fc": 120.00}, "memo": "par22 O    X    X    C"},
+   {"type": ["NC2D1", "CC2O1", "CC3161", "HCP1"], "params": {"phi0": 0.0, "fc": 20.00}, "memo": "par22 NH1  X    X    H"},
+   {"type": ["NC2D1", "CC2O1", "CC3062", "HCP1"], "params": {"phi0": 0.0, "fc": 20.00}, "memo": "par22 NH1  X    X    H"},
+   {"type": ["CC2O2", "CC311", "OC2D2", "OC2D2"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "par22 OC   X    X    CC"},
+   {"type": ["CC2O2", "CC301", "OC2D2", "OC2D2"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "par22 OC   X    X    CC"},
+   {"type": ["CC2O2", "CC3163", "OC2D2", "OC2D2"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "par22 OC   X    X    CC"},
+   {"type": ["CC2O2", "CC3062", "OC2D2", "OC2D2"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "par22 OC   X    X    CC"},
+   {"type": ["CC2O2", "CC321", "OC2D2", "OC2D2"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "par22 OC   X    X    CC"},
+   {"type": ["NC2D1", "CC2O1", "CC331", "HCP1"], "params": {"phi0": 0.0, "fc": 20.00}, "memo": "par22 NH1  X    X    H"},
+   {"type": ["NC2D1", "CC2O1", "CC311", "HCP1"], "params": {"phi0": 0.0, "fc": 20.00}, "memo": "par22 NH1  X    X    H"},
+   {"type": ["CC2O4", "CC331", "OC2D4", "HCR1"], "params": {"phi0": 0.0, "fc": 50.00}, "memo": "acetaldehyde adm"},
+   {"type": ["CC2O4", "CC312", "OC2D4", "HCR1"], "params": {"phi0": 0.0, "fc": 50.00}, "memo": "acetaldehyde adm"},
+   {"type": ["OC2D3", "CC331", "CC331", "CC2O3"], "params": {"phi0": 0.0, "fc": 70.00}, "memo": "ketone, acetone"},
+   {"type": ["OC2D3", "CC312", "CC322", "CC2O3"], "params": {"phi0": 0.0, "fc": 70.00}, "memo": "\""},
+   {"type": ["OBL", "*", "*", "CL"], "params": {"phi0": 0.0, "fc": 100.00}, "memo": "acetic acid"},
+   {"type": ["HEL2", "HEL2", "CEL2", "CEL2"], "params": {"phi0": 0.0, "fc": 3.00}, "memo": "ethene, yin,adm jr., 12/95"},
+   {"type": ["OCL", "*", "*", "CL"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "acetate"},
+   {"type": ["OCL", "*", "*", "CCL"], "params": {"phi0": 0.0, "fc": 96.00}, "memo": "for POPS"}
+]

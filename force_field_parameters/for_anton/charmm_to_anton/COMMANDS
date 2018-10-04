@@ -1,0 +1,5 @@
+#garden with -m viparr-ff/1.8.18/share -m viparr-ff/1.8.18/bin ff_charmm_to_viparr.py -t sapi24.rtf -p par_all36_carb.prm --viparr3 sapi24
+#garden with -m viparr-ff/1.8.18/share -m viparr-ff/1.8.18/bin ff_charmm_to_viparr.py -t sapi25.rtf -p par_all36_carb.prm --viparr3 sapi25
+#garden with -m viparr-ff/1.8.18/share -m viparr-ff/1.8.18/bin ff_charmm_to_viparr.py -t sapi24.rtf -p par_all36_carb.prm -p par_all36_lipid.prm --viparr3 sapi24
+garden with -m viparr-ff/1.8.18/share -m viparr-ff/1.8.18/bin ff_charmm_to_viparr.py -t sapi24.rtf -p par_all36_carb.prm -p par_all36_lipid.prm -p par_all36_stream_lipid_inositol.prm --viparr3 sapi24
+garden with -m viparr-ff/1.8.18/share -m viparr-ff/1.8.18/bin ff_charmm_to_viparr.py -t sapi25.rtf -p par_all36_carb.prm -p par_all36_lipid.prm -p par_all36_stream_lipid_inositol.prm --viparr3 sapi25

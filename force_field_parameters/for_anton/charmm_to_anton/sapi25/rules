@@ -1,0 +1,10 @@
+{
+   "info" : ["info1", "info2"],
+   "vdw_func" : "LJ12_6_sig_epsilon",
+   "vdw_comb_rule" : "ARITHMETIC/GEOMETRIC",
+   "exclusions" : 4,
+   "es_scale" : [0.0, 0.0, 1.0],
+   "lj_scale" : [0.0, 0.0, 1.0],
+   "plugins" : ["bonds", "angles", "ureybradley", "propers", "impropers", "vdw1", "exclusions", "mass"],
+   "nbfix_identifier" : "charmm"
+}

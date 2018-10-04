@@ -1,0 +1,4 @@
+([''], OrderedDict([('', ['sapi25.rtf'])]), ['par_all36_carb.prm', 'par_all36_lipid.prm', 'par_all36_stream_lipid_inositol.prm'])
+No CMAP terms found
+Writing converted forcefield to sapi25/
+templates ['SAPI25']
