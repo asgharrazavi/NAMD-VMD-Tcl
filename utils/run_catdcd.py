@@ -8,6 +8,6 @@ for i in range(10,25):
     text += '3kdp_eq_000%d.coor.dcd  ' %i
 
 
-
+# ind.ind is the index of atoms to be saved
 os.system('./catdcd -i ind.ind -o all-protein-pot.dcd %s' %text)
 
