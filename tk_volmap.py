@@ -6,7 +6,7 @@ def job(idd):
     os.system('mkdir %d' %idd)
     os.chdir('%s' %idd)
     for j in ['A','B','C']:
-        os.system(''' echo 10 11 |  gmx trjconv -n ../index.ndx -s ../protein_A_com_removed.pdb -f /Volumes/OWC_6TBHD/gltph/ofs_apo/wt/runs_8_to_18_cont/protein_200ps_%s_%d.xtc -fit rot+trans  -o t_.pdb -sep  -skip 5 ''' %(j,idd))
+        os.system(''' echo 10 11 |  gmx trjconv -n index.ndx -s protein_A_com_removed.pdb -f protein_200ps_%s_%d.xtc -fit rot+trans  -o t_.pdb -sep  -skip 5 ''' %(j,idd))
   	n_pdb = glob.glob('t_*pdb')
   	for k in range(len(n_pdb)):
 	    os.system(''' /Applications/VMD_1.9.2.app/Contents/vmd/vmd_MACOSXX86 -dispdev none  t_%d.pdb <<EOF 
