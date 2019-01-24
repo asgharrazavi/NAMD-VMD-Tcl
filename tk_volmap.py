@@ -23,4 +23,3 @@ for i in range(1,13):
     p = multiprocessing.Process(target=job,args=([i]))
     p.start()
 
-
