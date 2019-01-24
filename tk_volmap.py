@@ -6,6 +6,7 @@ def job(idd):
     os.system('mkdir %d' %idd)
     os.chdir('%s' %idd)
     for j in ['A','B','C']:
+	# 10: alighment index, 11: output index
         os.system(''' echo 10 11 |  gmx trjconv -n index.ndx -s protein_A_com_removed.pdb -f protein_200ps_%s_%d.xtc -fit rot+trans -o t_.pdb -sep -skip 5 ''' %(j,idd))
   	n_pdb = glob.glob('t_*pdb')
   	for k in range(len(n_pdb)):
