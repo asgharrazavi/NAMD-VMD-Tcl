@@ -19,7 +19,7 @@ EOF
         os.system('rm t*pdb')
     os.chdir('../')
 
-for i in range(2,13):
+for i in range(1,13):
     p = multiprocessing.Process(target=job,args=([i]))
     p.start()
 
