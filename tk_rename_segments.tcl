@@ -1,7 +1,7 @@
 mol new  58_pop2.psf  type psf first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol addfile 58_pop2.pdb type pdb
-set all [atomselect 0 "all"]
-$all set segname PIP2
+set pop2 [atomselect 0 "all"]
+$pop2 set segname PIP2
 animate write psf pip2.psf sel [atomselect top "resname SAPI24"]
 animate write pdb pip2.pdb sel [atomselect top "resname SAPI24"]
 
