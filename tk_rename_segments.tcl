@@ -45,5 +45,4 @@ $chl set segname CHOL
 animate write psf chol.psf sel [atomselect top "resname CHL1"]
 animate write pdb chol.pdb sel [atomselect top "resname CHL1"]
 
-
 quit
