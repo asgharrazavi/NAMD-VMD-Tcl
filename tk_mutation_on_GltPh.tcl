@@ -59,3 +59,4 @@ coordpdb non_protein.pdb
 writepdb mol.pdb
 writepsf mol.psf
 
+quit
