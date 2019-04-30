@@ -1,4 +1,4 @@
-# script for calculating velocities (MV**2) of atoms based on *.vel file
+# script for calculating velocities (MV**2) of atoms based on *.vel file and savinf them in beta column
 # load *.vel in frame 1 as moladdfile *.vel type namdbin
 
 set aa [atomselect top "protein and resid 1 to 620 and name CA" frame 1]
